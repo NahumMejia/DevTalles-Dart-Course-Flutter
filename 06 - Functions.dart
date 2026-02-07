@@ -17,7 +17,7 @@ int sum(int a, int b) {
 
 int sumFromArrowFunction(int a, int b) => a + b;
 
-//[] make the parameter optional, you can also b ??= 0 for the default value for the b parameter
+//[] make the parameter optional, you can also use b ??= 0 for the default value for the b parameter
 int sumOptional(int a, [int b = 0]) {
   return a + b;
 }
